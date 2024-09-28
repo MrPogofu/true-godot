@@ -1,16 +1,15 @@
-# true-godot README
+# True Godot
 
-## Working with Markdown
+## A (near) accurate recreation of the Godot Script Theme
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+### Language Support:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+* GD Script
+* Python
+* (Others will work but might not look great)
 
-## For more information
+## Example
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+![Theme Example Image](https://github.com/MrPogofu/image-to-host/blob/main/CodeExample.png?raw=true)
 
 **Enjoy!**
