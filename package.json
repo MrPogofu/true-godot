@@ -4,6 +4,10 @@
   "description": "A (near) accurate recreation of the Godot Script Editor theme",
   "version": "0.0.1",
   "publisher": "MrPogofu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrPogofu/true-godot"
+  },
   "keywords": [
     "theme",
     "dark theme",
