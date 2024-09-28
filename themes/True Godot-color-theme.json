@@ -5,7 +5,7 @@
 		"sideBar.foreground":"#CDCFD2",
 		"sideBar.background": "#252B34",
 		"sideBarTitle.foreground": "#CDCFD1",
-		"activityBar.background":"#363d4a",
+		"activityBar.background":"#363D4A",
 		"activityBar.foreground":"#CDCFD2",
 		"titleBar.activeBackground":"#1D2229",
 		"titleBar.inactiveBackground":"#1D2229",
@@ -21,7 +21,38 @@
 		"tab.inactiveBackground":"#252B34",
 		"tab.activeBackground":"#3A526A",
 		"tab.inactiveForeground":"#CDCFD2",
-		"activityBarBadge.background": "#087fce",
+		"tab.hoverBackground":"#2B3744",
+		"statusBar.background": "#363D4A",
+		"statusBar.debuggingBackground": "#70BAFA",
+		"editorWarning.foreground":"#FFDE66",
+		"errorForeground":"#FF786B",
+		"minimap.errorHighlight":"#FF786B",
+		"minimap.warningHighlight":"#FFDE66",
+		"focusBorder":"#70BAFA",
+		"menu.background":"#363D4A",
+		"menu.foreground":"#E0E0E0",
+		"menu.selectionBackground":"#4C525E",
+		"dropdown.background":"#363D4A",
+		"dropdown.listBackground":"#363D4A",
+		"commandCenter.activeBackground":"#4C525E",
+		"commandCenter.background":"#363D4A",
+		"quickInput.background":"#21262E",
+		"quickInput.foreground":"#E0E0E0",
+		"quickInputList.focusBackground":"#374F66",
+		"input.background":"#252B34",
+		"input.placeholderForeground":"#9EA1A5",
+		"input.foreground":"#E0E0E0",
+		"input.border":"#00000000",
+		"settings.focusedRowBackground":"#374F66",
+		"settings.focusedRowBorder":"#374F66",
+		"settings.checkboxBackground":"#44484E",
+		"settings.checkboxBorder":"#00000000",
+		"list.hoverBackground":"#2B3744",
+		"list.activeSelectionBackground":"#374F66",
+		"list.inactiveSelectionBackground":"#374F66",
+		"list.focusAndSelectionOutline":"#727780",
+		"sash.hoverBorder":"#70BAFA",
+		
 	},
 	"tokenColors": [
 		{
@@ -81,9 +112,6 @@
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution"
@@ -95,12 +123,11 @@
 		{
 			"name": "Tag",
 			"scope": [
-				"entity.name.tag",
 				"meta.tag.sgml",
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#FF7085"
 			}
 		},
 		{
@@ -172,6 +199,9 @@
 				"support.type",
 				"support.class",
 				"support.other.namespace.use.php",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
@@ -184,6 +214,7 @@
 		{
 			"name": "Entity Types",
 			"scope": [
+				"entity.name.tag",
 				"support.type"
 			],
 			"settings": {
@@ -251,7 +282,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#FF7085"
 			}
 		},
 		{
@@ -696,15 +727,25 @@
 			}
 		},
 		{
-			"name": "Curly Brackets, Brackets",
+			"name": "Curly Brackets, Brackets, Arrows",
 			"scope": [
 				"punctuation.definition.list",
 				"punctuation.definition.dict",
 				"punctuation.definition.parameters",
-				"punctuation.definition.parameter"
+				"punctuation.definition.parameter",
+				"punctuation.definition.arguments"
 			],
 			"settings": {
 				"foreground": "#ABC9FF",
+			}
+		},
+		{
+			"name": "Passed In Attributes",
+			"scope": [
+				"meta.function-call.arguments"
+			],
+			"settings": {
+				"foreground": "#CDCFD2",
 			}
 		}
 	]
