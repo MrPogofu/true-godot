@@ -1,9 +1,10 @@
 {
   "name": "true-godot",
-  "displayName": "True Godot",
+  "displayName": "True Godot Theme",
   "description": "A (near) accurate recreation of the Godot Script Editor theme",
   "version": "0.0.1",
   "publisher": "MrPogofu",
+  "icon": "TrueGodotLogo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/MrPogofu/true-godot"
