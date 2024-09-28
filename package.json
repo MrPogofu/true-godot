@@ -1,0 +1,21 @@
+{
+  "name": "true-godot",
+  "displayName": "True Godot",
+  "description": "Recreation of Godot Script Editor",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "True Godot",
+        "uiTheme": "vs-dark",
+        "path": "./themes/True Godot-color-theme.json"
+      }
+    ]
+  }
+}
