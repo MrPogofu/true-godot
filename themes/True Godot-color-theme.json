@@ -69,7 +69,13 @@
 		"scrollbarSlider.activeBackground":"#6D7176",
 		"selection.background":"#55738F",
 		"textPreformat.background":"#252B34",
-		"textPreformat.foreground":"#ABC9FF"
+		"textPreformat.foreground":"#ABC9FF",
+		"problemsWarningIcon.foreground":"#FFDE66",
+		"problemsErrorIcon.foreground":"#FF786B",
+		"badge.background":"#202831",
+		"badge.foreground":"#CDCFD2",
+		"activityBarBadge.background":"#5B94C6",
+		"activityBarBadge.foreground":"#E0E0E0"
 	},
 	"tokenColors": [
 		{
@@ -429,7 +435,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#FF7085"
 			}
 		},
 		{
@@ -438,7 +444,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#66E5FF"
 			}
 		},
 		{
@@ -447,7 +453,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#FF8CCC"
 			}
 		},
 		{
@@ -456,7 +462,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#A1FFE0"
 			}
 		},
 		{
@@ -465,7 +471,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C17E70"
+				"foreground": "#A3A3F5"
 			}
 		},
 		{
@@ -474,7 +480,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#63C259"
 			}
 		},
 		{
@@ -483,7 +489,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#FFB273"
 			}
 		},
 		{
@@ -789,7 +795,9 @@
 				"punctuation.terminator.statement",
 				"meta.brace.round",
 				"punctuation.curlybrace",
-				"punctuation.parenthesis"
+				"punctuation.parenthesis",
+				"punctuation.definition.dictionary",
+				"punctuation.definition.array"
 			],
 			"settings": {
 				"foreground": "#ABC9FF",
