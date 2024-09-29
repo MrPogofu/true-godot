@@ -23,7 +23,7 @@
 		"tab.inactiveForeground":"#CDCFD2",
 		"tab.hoverBackground":"#2B3744",
 		"statusBar.background": "#363D4A",
-		"statusBar.debuggingBackground": "#70BAFA",
+		"statusBar.debuggingBackground": "#5B94C6",
 		"editorWarning.foreground":"#FFDE66",
 		"errorForeground":"#FF786B",
 		"minimap.errorHighlight":"#FF786B",
@@ -52,7 +52,7 @@
 		"list.inactiveSelectionBackground":"#374F66",
 		"list.focusAndSelectionOutline":"#727780",
 		"sash.hoverBorder":"#70BAFA",
-		
+		"statusBarItem.remoteBackground":"#5B94C6"
 	},
 	"tokenColors": [
 		{
@@ -137,7 +137,8 @@
 				"entity.name.function",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
+				"punctuation.terminator.rule"
 			],
 			"settings": {
 				"foreground": "#66E5FF"
@@ -204,7 +205,8 @@
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"support.type.sys-types",
+				"punctuation.section.property-list"
 			],
 			"settings": {
 				"foreground": "#ABC9FF"

@@ -1,4 +1,4 @@
-# True Godot
+# True Godot Theme
 
 ## A (near) accurate recreation of the Godot Script Theme
 
