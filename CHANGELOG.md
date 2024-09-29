@@ -1,9 +1,13 @@
-# Change Log
+# Change Log for True Godot Theme
 
-All notable changes to the "true-godot" extension will be documented in this file.
+All notable changes to the True Godot Theme will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [29/09/2024]
+### Added
+- Support for SQL, C#, JavaScript, JSON, MarkUp
+- New Icon
 
-## [Unreleased]
+### Fixed
 
-- Initial release
+- A few final UI badges and buttons that hadn't been changed yet
+- Missed a few things in Python

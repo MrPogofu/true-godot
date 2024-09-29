@@ -6,6 +6,7 @@
 
 * GD Script
 * Python
+* Many other commons
 * (Others will work but might not look great)
 
 ## Example
