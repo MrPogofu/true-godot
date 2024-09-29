@@ -25,7 +25,16 @@
     "html",
     "html theme",
     "css",
-    "css theme"
+    "css theme",
+    "sql",
+    "sql theme",
+    "js",
+    "java script",
+    "js theme",
+    "java script theme",
+    "c#",
+    "c sharp",
+    "c# theme"
   ],
   "engines": {
     "vscode": "^1.93.0"
