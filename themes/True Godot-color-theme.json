@@ -98,7 +98,11 @@
 			"name": "Keyword, Storage",
 			"scope": [
 				"keyword",
-				"storage.modifier"
+				"storage.modifier",
+				"variable.other.object.property",
+				"variable.other.property",
+				"storage.type.function.arrow",
+				"constant.other.table-name.sql"
 			],
 			"settings": {
 				"foreground": "#ABC9FF"
@@ -115,7 +119,8 @@
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution",
-				"keyword.operator.wordlike"
+				"keyword.operator.wordlike",
+				"storage.type"
 			],
 			"settings": {
 				"foreground": "#FF7085"
@@ -137,8 +142,7 @@
 				"entity.name.function",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method",
-				"punctuation.terminator.rule"
+				"keyword.other.special-method"
 			],
 			"settings": {
 				"foreground": "#66E5FF"
@@ -172,7 +176,9 @@
 				"constant.escape",
 				"keyword.other.unit",
 				"keyword.other",
-				"entity.name.type.class"
+				"entity.name.type.class",
+				"keyword.other.create",
+				"keyword.other.DML"
 			],
 			"settings": {
 				"foreground": "#A1FFE0"
@@ -206,7 +212,8 @@
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
 				"support.type.sys-types",
-				"punctuation.section.property-list"
+				"punctuation.section.property-list",
+				"meta.attribute"
 			],
 			"settings": {
 				"foreground": "#ABC9FF"
@@ -217,7 +224,12 @@
 			"scope": [
 				"entity.name.tag",
 				"support.type",
-				"entity.name.type.class"
+				"entity.name.type.class",
+				"variable.other.object",
+				"entity.name.type",
+				"keyword.type.string",
+				"keyword.type.int",
+				"keyword.type.bool"
 			],
 			"settings": {
 				"foreground": "#42FFC2"
@@ -674,7 +686,13 @@
 			"name": "Flow Control",
 			"scope": [
 				"keyword.control.flow.python",
-				"keyword.control.gdscript"
+				"keyword.control.gdscript",
+				"keyword.other",
+				"storage.modifier.virtual",
+				"storage.modifier.override",
+				"storage.modifier.static",
+				"keyword.control.flow.break",
+				"keyword.control.flow.return"
 			],
 			"settings": {
 				"foreground": "#FF8CCC",
@@ -696,19 +714,24 @@
 			"scope": [
 				"entity.name.function.decorator.python",
 				"entity.name.function.decorator.gdscript",
-				"keyword.control.flow"
+				"keyword.control.flow",
+				"storage.modifier"
 			],
 			"settings": {
 				"foreground": "#FFB273"
 			}
 		},
 		{
-			"name": "Booleans, Classes, Function, AND, OR",
+			"name": "Booleans, Classes, Function, AND, OR, Void",
 			"scope": [
 				"constant.language",
-				"storage.type",
+				"storage.type.function",
+				"storage.type.class",
+				"storage.type.var",
 				"keyword.operator.logical",
-				"keyword.language.gdscript"
+				"keyword.language.gdscript",
+				"variable.language.special",
+				"keyword.type.void"
 			],
 			"settings": {
 				"foreground": "#FF7085",
@@ -718,7 +741,8 @@
 			"name": "User Defined Function Calls",
 			"scope": [
 				"meta.function-call",
-				"support.function.any-method.gdscript"
+				"support.function.any-method.gdscript",
+				"entity.name.function.js"
 			],
 			"settings": {
 				"foreground": "#57B2FF",
@@ -735,25 +759,32 @@
 			}
 		},
 		{
-			"name": "Curly Brackets, Brackets, Arrows",
+			"name": "Curly Brackets, Brackets, Arrows, Semi-Colon",
 			"scope": [
 				"punctuation.definition.list",
 				"punctuation.definition.dict",
 				"punctuation.definition.parameters",
 				"punctuation.definition.parameter",
-				"punctuation.definition.arguments"
+				"punctuation.definition.arguments",
+				"punctuation.definition.block",
+				"punctuation.terminator.rule",
+				"punctuation.terminator.statement",
+				"meta.brace.round",
+				"punctuation.curlybrace",
+				"punctuation.parenthesis"
 			],
 			"settings": {
 				"foreground": "#ABC9FF",
 			}
 		},
 		{
-			"name": "Passed In Attributes",
+			"name": "Attributes",
 			"scope": [
-				"meta.function-call.arguments"
+				"meta.function-call.arguments",
+				"variable.other.constant"
 			],
 			"settings": {
-				"foreground": "#CDCFD2",
+				"foreground": "#CDCFD2"
 			}
 		},
 		{

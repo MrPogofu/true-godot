@@ -19,7 +19,13 @@
     "unity",
     "unity theme",
     "modern theme",
-    "modern"
+    "modern",
+    "python",
+    "python theme",
+    "html",
+    "html theme",
+    "css",
+    "css theme"
   ],
   "engines": {
     "vscode": "^1.93.0"
