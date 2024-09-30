@@ -166,7 +166,8 @@
 				"entity.name.function",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
+				"meta.definition.function"
 			],
 			"settings": {
 				"foreground": "#66E5FF"
@@ -311,7 +312,7 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#66e5ff"
 			}
 		},
 		{
@@ -717,7 +718,9 @@
 				"storage.modifier.override",
 				"storage.modifier.static",
 				"keyword.control.flow.break",
-				"keyword.control.flow.return"
+				"keyword.control.flow.return",
+				"keyword.control.flow.js",
+				"keyword.control.conditional",
 			],
 			"settings": {
 				"foreground": "#FF8CCC",
@@ -766,8 +769,7 @@
 			"name": "User Defined Function Calls",
 			"scope": [
 				"meta.function-call",
-				"support.function.any-method.gdscript",
-				"entity.name.function.js"
+				"support.function.any-method.gdscript"
 			],
 			"settings": {
 				"foreground": "#57B2FF",
@@ -837,10 +839,11 @@
 		{
 			"name": "Parameter",
 			"scope": [
-				"variable.parameter"
+				"variable.parameter",
+				"variable.other.readwrite"
 			],
 			"settings": {
-				"foreground": "#CDCFD2",
+				"foreground": "#CDCFD2"
 			}
 		}
 	]
