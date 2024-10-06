@@ -75,7 +75,11 @@
 		"badge.background":"#202831",
 		"badge.foreground":"#CDCFD2",
 		"activityBarBadge.background":"#5B94C6",
-		"activityBarBadge.foreground":"#E0E0E0"
+		"activityBarBadge.foreground":"#E0E0E0",
+		"debugToolBar.background":"#252B34",
+		"debugIcon.stopForeground":"#FF786B",
+		"debugIcon.pauseForeground":"#70BAFA",
+		"debugIcon.restartForeground":"#42FFC2"
 	},
 	"tokenColors": [
 		{
@@ -720,7 +724,7 @@
 				"keyword.control.flow.break",
 				"keyword.control.flow.return",
 				"keyword.control.flow.js",
-				"keyword.control.conditional",
+				"keyword.control.conditional"
 			],
 			"settings": {
 				"foreground": "#FF8CCC",
