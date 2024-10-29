@@ -11,3 +11,8 @@ All notable changes to the True Godot Theme will be documented in this file.
 
 - A few final UI badges and buttons that hadn't been changed yet
 - Missed a few things in Python
+
+## [29/10/2024]
+### Fixed
+
+- Found some more UI to fix the colours of

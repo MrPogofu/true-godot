@@ -79,7 +79,10 @@
 		"debugToolBar.background":"#252B34",
 		"debugIcon.stopForeground":"#FF786B",
 		"debugIcon.pauseForeground":"#70BAFA",
-		"debugIcon.restartForeground":"#42FFC2"
+		"debugIcon.restartForeground":"#42FFC2",
+		"editorWidget.background":"#363D4A",
+		"editorWidget.foreground":"#E0E0E0",
+		"editorWidget.resizeBorder":"#70BAFA"
 	},
 	"tokenColors": [
 		{
