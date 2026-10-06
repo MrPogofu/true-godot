@@ -1,0 +1,10 @@
+diff --git a/themes/True Godot-color-theme.json b/themes/True Godot-color-theme.json
+index 1a2b3c4..5d6e7f8 100644
+--- a/themes/True Godot-color-theme.json
++++ b/themes/True Godot-color-theme.json
+@@ -10,7 +10,8 @@
+ 		"editor.background": "#1D2229",
+-		"editor.foreground": "#CDCFD1",
++		"editor.foreground": "#CDCFD2",
++		"editorCursor.foreground": "#FFFFFF",
+ 		"editorGroupHeader.tabsBackground":"#252B34",

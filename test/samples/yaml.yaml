@@ -1,0 +1,22 @@
+# GitHub Actions workflow
+name: Publish
+on:
+  push:
+    tags: ["v*"]
+env:
+  NODE_VERSION: 20
+  DEBUG: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish
+        run: npx @vscode/vsce publish -p ${{ secrets.VSCE_PAT }}
+        anchors: &defaults
+          retries: 3
+          timeout: 1.5
+        other: *defaults
+        multiline: |
+          line one
+          line two

@@ -1,10 +1,15 @@
 {
   "name": "true-godot",
   "displayName": "True Godot Theme",
-  "description": "A (near) accurate recreation of the Godot Script Editor theme",
-  "version": "0.4.2",
+  "description": "A faithful recreation of the Godot 4 editor and script editor colours, with support for GDScript, shaders and 40+ other languages",
+  "version": "0.5.0",
   "publisher": "MrPogofu",
+  "license": "MIT",
   "icon": "TrueGodotLogo.png",
+  "galleryBanner": {
+    "color": "#1D2229",
+    "theme": "dark"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/MrPogofu/true-godot"
@@ -12,29 +17,23 @@
   "keywords": [
     "theme",
     "dark theme",
-    "mr pogofu",
-    "pogofu",
     "godot",
     "godot theme",
-    "unity",
-    "unity theme",
-    "modern theme",
-    "modern",
+    "godot 4",
+    "gdscript",
+    "gdshader",
+    "game development",
+    "mr pogofu",
+    "pogofu",
     "python",
-    "python theme",
-    "html",
-    "html theme",
-    "css",
-    "css theme",
-    "sql",
-    "sql theme",
-    "js",
-    "java script",
-    "js theme",
-    "java script theme",
     "c#",
-    "c sharp",
-    "c# theme"
+    "csharp",
+    "javascript",
+    "typescript",
+    "rust",
+    "c++",
+    "glsl",
+    "shader"
   ],
   "engines": {
     "vscode": "^1.93.0"
@@ -48,6 +47,15 @@
         "label": "True Godot",
         "uiTheme": "vs-dark",
         "path": "./themes/True Godot-color-theme.json"
+      }
+    ],
+    "grammars": [
+      {
+        "scopeName": "source.gdscript.godot-globals.injection",
+        "path": "./syntaxes/gdscript-globals.injection.json",
+        "injectTo": [
+          "source.gdscript"
+        ]
       }
     ]
   }

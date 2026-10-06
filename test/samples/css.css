@@ -1,0 +1,30 @@
+@import url("reset.css");
+
+:root {
+  --accent: #70bafa;
+  --base: rgb(54 61 74 / 100%);
+}
+
+/* Layout */
+body > main.container,
+#sidebar:hover::before {
+  display: flex;
+  margin: 0 auto !important;
+  padding: calc(1rem + 2px) 16px;
+  font-family: "Noto Sans", sans-serif;
+  color: var(--accent);
+  transition: opacity 0.3s ease-in-out;
+}
+
+a[href^="http"]:not(.internal) {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .card { grid-template-columns: repeat(2, 1fr); }
+}
+
+@keyframes pulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.05); }
+}

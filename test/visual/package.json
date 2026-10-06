@@ -1,0 +1,14 @@
+{
+  "name": "true-godot-visual-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs",
+    "scopes": "node scopes.mjs",
+    "update-grammars": "node update-grammars.mjs",
+    "update-globals": "node update-globals.mjs"
+  },
+  "devDependencies": {
+    "shiki": "^3.0.0"
+  }
+}

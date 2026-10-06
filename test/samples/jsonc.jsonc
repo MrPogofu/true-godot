@@ -1,0 +1,8 @@
+// VS Code settings
+{
+  /* Theme */
+  "workbench.colorTheme": "True Godot",
+  "editor.fontFamily": "JetBrains Mono, monospace",
+  "editor.semanticHighlighting.enabled": true,
+  "files.exclude": { "**/.godot": true }, // trailing comment
+}

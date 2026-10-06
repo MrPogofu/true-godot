@@ -2,11 +2,18 @@
 
 ## A (near) accurate recreation of the Godot Script Theme
 
+All the colours are taken straight from the Godot 4 editor, so your code should look just like it does in Godot.
+
 ### Language Support:
 
-* GD Script
-* Python
-* Many other commons
+* **GD Script** (with the [godot-tools](https://marketplace.visualstudio.com/items?itemName=geequlim.godot-tools) extension)
+  * Built in functions like `print()` are purple, just like in Godot
+* **Godot Shaders** (`.gdshader`)
+* **Godot Scenes and Resources** (`.tscn`, `.tres`)
+* **C#**, **C++** and **Rust** for your Godot projects
+* **Python**
+* **Web stuff**: HTML, CSS, SCSS, JavaScript, TypeScript, React and Vue
+* **Many other commons**: Java, Kotlin, Swift, Go, Dart, PHP, Ruby, Lua, SQL, JSON, YAML, Markdown, Shell, PowerShell and more
 * (Others will work but might not look great)
 
 ## Example

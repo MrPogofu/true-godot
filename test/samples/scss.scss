@@ -1,0 +1,23 @@
+@use "sass:math";
+
+$base-color: #363d4a;
+$spacing: 4px;
+
+@mixin panel($radius: 3px) {
+  background: darken($base-color, 10%);
+  border-radius: $radius;
+}
+
+.dock {
+  @include panel(4px);
+  padding: math.div($spacing, 2);
+
+  &__title {
+    color: #cdcfd2;
+    &:hover { color: lighten(#cdcfd2, 10%); }
+  }
+
+  @each $name, $glyph in (play: "▶", stop: "■") {
+    .icon-#{$name}:before { content: $glyph; }
+  }
+}

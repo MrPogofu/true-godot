@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Project file -->
+<Project Sdk="Godot.NET.Sdk/4.4.1">
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <![CDATA[ raw <text> here ]]>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+{
+  "name": "true-godot",
+  "version": "0.5.0",
+  "private": false,
+  "count": 42,
+  "ratio": 0.75,
+  "nothing": null,
+  "tags": ["theme", "godot", "dark"],
+  "settings": {
+    "editor": {
+      "fontSize": 14,
+      "nested": {
+        "deeper": { "deepest": { "level": 5 } }
+      }
+    }
+  }
+}

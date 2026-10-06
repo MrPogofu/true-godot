@@ -1,0 +1,16 @@
+# Cargo manifest
+[package]
+name = "godot-ext"
+version = "0.1.0"
+edition = "2021"
+authors = ["Mr Pogofu <hi@example.com>"]
+
+[dependencies]
+godot = { git = "https://github.com/godot-rust/gdext", branch = "master" }
+serde = { version = "1.0", features = ["derive"] }
+
+[[bin]]
+name = "tool"
+debug = true
+opt-level = 3
+released = 2024-09-29T10:00:00Z
