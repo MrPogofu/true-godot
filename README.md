@@ -2,6 +2,8 @@
 
 ## A (near) accurate recreation of the Godot Script Theme
 
+This theme is meant to replicate the Godot 4 editor and script editor colours. With support for GDScript, gdshaders and 40+ other languages.
+
 All the colours are taken straight from the Godot 4 editor, so your code should look just like it does in Godot.
 
 ### Language Support:

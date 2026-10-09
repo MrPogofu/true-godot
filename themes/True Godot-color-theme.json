@@ -1154,6 +1154,15 @@
 
 		// ── Markup: HTML / XML / JSX ─────────────────────────────────────────
 		{
+			"name": "HTML Attributes",
+			"scope": [
+				"text.html.basic entity.other.attribute-name.html",
+				"text.html.basic entity.other.attribute-name",
+				"entity.other.attribute-name.html"
+			],
+			"settings": { "fontStyle": "italic", "foreground": "#FF7085" }
+		},
+		{
 			"name": "Tags",
 			"scope": ["entity.name.tag", "meta.tag.sgml", "meta.tag.sgml.doctype", "entity.name.tag.html", "entity.name.tag.xml", "entity.name.tag.localname"],
 			"settings": { "foreground": "#42FFC2" }
@@ -1400,7 +1409,7 @@
 		{
 			"name": "Markup: link URLs",
 			"scope": ["markup.underline.link", "markup.underline.link.markdown", "markup.underline.link.image.markdown", "meta.link.inline.markdown markup.underline.link"],
-			"settings": { "foreground": "#B8C47D", "fontStyle": "underline" }
+			"settings": { "foreground": "#FFEDA1", "fontStyle": "underline" }
 		},
 		{
 			"name": "LaTeX: commands & environments",
